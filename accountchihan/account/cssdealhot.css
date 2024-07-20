@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+.container-fluid{	font-family:"Gill Sans MT"; background: #FFF9F9;}
+.hangdautien{
+	display: flex;
+}
+.nhanhang{
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	flex: 1;
+}
+.hinhnho{
+	color: #291000;
+	padding-top: 50px;
+	padding-right: 20px;
+	flex:1;
+	text-align: end;
+}
+
+.bi-person:hover{
+	color:#FF2C91;
+}
+
+.feedback{
+	padding-top: 50px;
+	padding-left: 20px;
+	flex:1;
+	text-align: START;
+}
+.bi{
+	font-size: 25px;
+}
+.navbar-collapse{
+	margin: auto;
+}
+.me-auto{
+	margin: auto;
+}
+.navbar{
+	background: #FFF9F9;
+}
+.navbar:hover{
+	background: #FFE0F3;
+	border-radius: 10px 10px 0px 0px;
+}
+.nav-item{
+	padding-right: 40px;
+	font-size: 21px;
+}
+.nav-item1{
+	padding-right: 0px;
+	font-size: 21px;
+}
+.menu{
+	color: #FF2C91;
+}
+.menu:hover{
+	border-radius: 3px;
+	background: #FFC5E2;
+	color: #FFFFFF;
+}
+.dropdown-menu{
+	background: #FFF9F9;
+	border: none;
+}
+.cot1 {
+	display: flex;
+	padding-top: 5px;
+}
+
+.khung1 {
+	flex:5 ;
+	padding-right: 50px;
+	padding-top: 40px
+}
+.danhsach {
+	flex: 1;
+	width: 100px;
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 30px;
+}
+.btn {
+	border-color: #FF2C91;
+	color: #FF2C91;
+}
+.btn:hover {
+	color: #FFFFFF;
+	background: #FFC5E2;
+	border: none;
+}
+.pass {
+	display: flex;
+	
+}
+ .btn-outline-dark>h6 {
+	text-align: end;
+	 color:#A4A2A2; 
+}
+.TEN {
+	width: 1000px;
+	text-align: start;
+	border-color: #FF2C91;
+	background-color: #FFF9F9;
+	
+}
+.chu {
+	text-align: center;
+	padding-top: 10px;
+	width: 1000px;
+	color: #A4A2A2;
+}
+.you {
+	text-align: center;
+	width: 1000px;
+	height: 120px;
+}
+.Youhave>h2 {
+	font-weight: bold;
+}
+.btn-info {
+	background-color: #FFF9F9;
+}
+.status {
+	padding-top: 20px;
+}
+.btn-btn {
+	padding-top: 10px;
+	display: flex;
+	width: 1000px;
+	
+}
+.o1 {
+	flex: 1;
+	text-align: start;
+}
+.o2 {
+	flex: 1;
+	text-align: end;
+	padding-top: 20px;
+	
+}
+.o22 {
+	flex: 1;
+	text-align: start;
+}
+.o23 {
+	flex: 4;
+	text-align: end;
+}
+.how {
+	text-align: center;
+	padding-top: 150px;
+	width: 1000px;
+	
+}
+
+
+.card {
+	display: flex;
+
+	
+    text-align: center;
+}
+
+.card-body>a {
+	background-color: #FFFFFF;
+	
+}
+
+
+.footer{
+	padding-top: 50px;
+	text-align: center;
+	color: #FF2C91;
+}
+.thongtinlienheofooter{
+	display: flex;
+	margin:auto;
+	padding: 20px;
+}
+.thongtin{
+	padding:10px;
+}
+.thanhtimkiem>h4{
+	padding-bottom: 5px;
+}
+.signupforupdate{
+	display: flex;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 45px;
+}
+.me-2{
+	border-radius: 7px 3px;
+	border: 1px solid #291000;
+	background: rgba(0, 0, 0, 0)
+}
+.btn-outline-dark{
+	border-radius: 5px 5px;
+	border: 1px solid #291000;
+	background: rgba(0, 0, 0, 0)
+}
+.space{
+	padding: 75px;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+<style type="text/css">
+	@import "feedback.css"
+</style>
+<title>FEEDBACKPAGE</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+	<div class="feedbackthongtin"><a href="FEEDBACKPAGE.html">FEEDBACK</a></div>
+<div class="hangdautien row">
+  <div class="feedback"><a href="LOGINPAGE.html" style="text-decoration: none; color:#291000;display: none;">Sign in</a></div>
+	<div class="nhanhang">
+		<a class="nav-link navbar-brand" aria-current="page" href="Index.html"><img style="width:500px;" src="logochinhthuc.png" alt="logo"/></a>
+	</div>
+	<div class="hinhnho" >
+		<a href="WISHLISTPAGE.html" style="color: #291000; text-decoration:none; padding-right: 20px;"><i class="bi bi-heart" style="padding-right: 8px;"></i>     </a>
+		<a href="ACCOUNTPAGE.html" style="color: #291000; text-decoration:none; padding-right: 20px;"> <i class="bi bi-person"></i> </a>
+		<a href="SEARCHPAGE.html" style="color: #291000; text-decoration:none; padding-right: 20px;"><i class="bi bi-search" style="padding-right: 8px;"></i> </a>
+		<a href="CARTPAGE.html" style="color: #291000; text-decoration:none; padding-right: 20px;"><i class="bi bi-bag"></i> </a>
+	
+	</div>
+	</div>
+
+<nav class="navbar navbar-expand-sm">
+	
+    <div class="collapse navbar-collapse" id="navbarcontent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link menu" href="Index.html">Home</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Lipstick
+          </a>
+          <ul class="dropdown-menu">
+			<li><a class="dropdown-item menu" href="ALLPRODUCTPAGE1.html">All Products</a></li>
+            <li><a class="dropdown-item menu" href="#">Spring Collection - A mystery day</a></li>
+            <li><a class="dropdown-item menu" href="#">Summer Collection - Fresh in sunny day</a></li>
+            <li><a class="dropdown-item menu" href="#">Winter Collection - Cozy at home</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu" href="ABOUTUSPAGE.html">About Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link menu" href="#">Support</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link menu" href="#">Trending</a>
+        </li>
+		<li class="nav-item1">
+          <a class="nav-link menu" href="DEALHOTPAGE.html">Deal Hot</a>
+        </li>
+      </ul>
+    </div>
+	  
+
+</nav>
+		
+		<div class="phanregister">
+			<h1 style=" text-align: center; color: #FF2C91;">FEEDBACK FOR DEARLING</h1>
+			<form name="form" action="Feedback.html" method="get">
+			<div class="noidungregister">
+				<div class="hang1register">
+					<input type="text" class="form-control nhap1" placeholder="Your full name" required> 
+					<div class="spacegiua2ben"></div>
+					<input type="tel" class="form-control nhap2" placeholder="Phone - 0xxx-xxx-xxx" pattern="[0]{1}[1-9]{1}[0-9]{2}[0-9]{3}[0-9]{3}" required>
+				</div>
+				
+				<div class="hang2register">
+					<input type="text" class="form-control nhap" placeholder="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+ required>
+				</div>
+				<div class="hang4register">
+					<input type="number" class="form-control nhap" placeholder="Age" min="16" max="120" required>
+				</div>
+				<div class="hang5register">
+					<select class="form-select" aria-label="Default select example" required>
+  						<option selected>What problem did you have?</option>
+  						<option value="1">Products</option>
+  						<option value="2">Services</option>
+  						<option value="3">Web</option>
+					</select>
+				</div>
+				<div class="hang3register">
+					<h6 style="text-align: start; color: #FF2C91;">Tell us what you want?</h6>
+					<div id="editor"></div>
+                      <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+                      <script>
+                          ClassicEditor
+                              .create( document.querySelector( '#editor' ) )
+                              .catch( error => {
+                                  console.error( error );
+                              } );
+                      </script>
+				</div>
+						<br> <br>
+				
+				<div class="nut">
+		            	<button type="submit" class="form-control btn btnprimary">Send Dearling</button>
+		        </div>
+			</div>
+			</form>
+		</div>
+		
+	<div class="footer">
+		<div class="col-sm">
+			<img style="width:200px; padding-bottom: 25px;" src="logochofooter.png" alt="logo"/>
+		</div>
+		<div class="col-sm">
+			<i class="bi bi-facebook" style="padding-right:20px;"></i>
+			<i class="bi bi-instagram" style="padding-right:20px;"></i>
+			<i class="bi bi-twitter" style="padding-right:20px;"></i>
+			<i class="bi bi-tiktok"></i>
+		</div>
+		<div class="thongtinlienheofooter col-md-4">
+		 <a class="nav-link thongtin" aria-current="page" href="#"><h5>Contact Us</h5></a>
+		 <a class="nav-link thongtin" aria-current="page" href="#"><h5>F&Q</h5></a>
+		 <a class="nav-link thongtin" aria-current="page" href="#"><h5>Shipping</h5></a>
+		 <a class="nav-link thongtin" aria-current="page" href="#"><h5>Order Tracking</h5></a>
+		 <a class="nav-link thongtin" aria-current="page" href="#"><h5>Rewards</h5></a>
+		</div>
+		<div class="thanhtimkiem">
+			<h4 align="end" class="col-lg-6"> Sign up for updates <i class="bi bi-stars"></i> </h4>
+      <form class="d-flex" role="search" action="registernewaccount.html" method="post">
+		  <div class="signupforupdate">
+		<div class="otimkiem">
+        	<input style="width: 335px;" class="form-control me-222" type="email" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" aria-label="Search"> 
+		</div>
+			  <div class="space1"></div>
+        <button style="width: 125px; height: 38px;" class="btn nutdep" type="submit">Submit</button>
+		</div>
+      </form>
+	  </div>
+		<h5>Dearling.station – 04 Vàng Nắng, 11 Mộng Mơ, Việt Nam</h5>
+        <h5>&copy; 2024 Dearling Official</h5>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.container-fluid{	font-family:"Gill Sans MT"; background: #FFF9F9;}
+.hangdautien{
+	display: flex;
+}
+.nhanhang{
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	flex: 1;
+}
+.hinhnho{
+	color: #291000;
+	padding-top: 50px;
+	padding-right: 20px;
+	flex:1;
+	text-align: end;
+}
+
+.bi-person:hover{
+	color:#FF2C91;
+}
+
+.feedback{
+	padding-top: 50px;
+	padding-left: 20px;
+	flex:1;
+	text-align: START;
+}
+.bi{
+	font-size: 25px;
+}
+.navbar-collapse{
+	margin: auto;
+}
+.me-auto{
+	margin: auto;
+}
+.navbar{
+	background: #FFF9F9;
+}
+.navbar:hover{
+	background: #FFE0F3;
+	border-radius: 10px 10px 0px 0px;
+}
+.nav-item{
+	padding-right: 40px;
+	font-size: 21px;
+}
+.nav-item1{
+	padding-right: 0px;
+	font-size: 21px;
+}
+.menu{
+	color: #FF2C91;
+}
+.menu:hover{
+	border-radius: 3px;
+	background: #FFC5E2;
+	color: #FFFFFF;
+}
+.dropdown-menu{
+	background: #FFF9F9;
+	border: none;
+}
+.cot1 {
+	display: flex;
+	padding-top: 5px;
+}
+.sanpham {
+	flex:1;
+	padding-top: 60px;
+	
+}
+.slide{
+	width: 1624px;
+    height: 760px;
+}
+.carousel-item img{
+	object-fit: cover;
+    object-position: center;
+	width: 1624px;
+    height: 760px;
+}
+.cot2 {
+	text-align: center;
+	padding-top: 70px;
+
+}
+.cot2>h2 {
+	font-weight: 600;
+}
+.cot2>h4 {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.cot3 {
+	flex:auto;
+}
+.video {
+	text-align: center;
+	padding-top: 40px;
+	
+}
+
+
+.footer{
+	padding-top: 50px;
+	text-align: center;
+	color: #FF2C91;
+}
+.thongtinlienheofooter{
+	display: flex;
+	margin:auto;
+	padding: 20px;
+}
+.thongtin{
+	padding:10px;
+}
+.thanhtimkiem>h4{
+	padding-bottom: 5px;
+}
+.signupforupdate{
+	display: flex;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 45px;
+}
+.me-2{
+	border-radius: 7px 3px;
+	border: 1px solid #291000;
+	background: rgba(0, 0, 0, 0)
+}
+.btn-outline-dark{
+	border-radius: 5px 5px;
+	border: 1px solid #291000;
+	background: rgba(0, 0, 0, 0)
+}
+.space{
+	padding: 75px;
+}
